@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/More.dart';
 
 class Gamestitle extends StatefulWidget {
   @override
@@ -31,7 +32,20 @@ class _GamestitleState extends State<Gamestitle> {
               ),
               height: 30,
               width: MediaQuery.of(context).size.width * 0.2,
-              child: Center(child: Text('More')),
+              child: InkWell(
+                splashColor: Colors.white.withOpacity(0.5),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => More(),
+                    ),
+                  );
+                },
+                child: Center(
+                  child: Text('More'),
+                ),
+              ),
             ),
           ),
         ],

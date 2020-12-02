@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "471913404352",
+    "firebase_url": "https://game-app-87865.firebaseio.com",
+    "project_id": "game-app-87865",
+    "storage_bucket": "game-app-87865.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471913404352:android:437b0f7c296863765d1a25",
+        "android_client_info": {
+          "package_name": "com.example.flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471913404352-815smhassio810n67uup6bvgpfi6h0u5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8r9KsXd6W5yIYWKLaQ11jG8ybGO8vvE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471913404352-815smhassio810n67uup6bvgpfi6h0u5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

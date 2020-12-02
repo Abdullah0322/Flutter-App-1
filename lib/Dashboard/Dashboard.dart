@@ -72,9 +72,11 @@ class _DashboardState extends State<Dashboard> {
                           color: Colors.white,
                           icon: Icon(Icons.search),
                           onPressed: () {
-                            TextField(
-                              decoration: InputDecoration(labelText: 'HI'),
-                            );
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Search(),
+                                ));
                           }),
                     ),
                   ),
