@@ -202,6 +202,12 @@ class _LoginState extends State<Login> {
                                     setState(() {
                                       showProgress = false;
                                     });
+                                     Navigator.push(
+                                                  context,
+                                                  MaterialPageRoute(
+                                                    builder: (context) =>
+                                                      Dashboard(),
+                                                  ));
                                   }
                                 } catch (e) {
                                   Fluttertoast.showToast(
@@ -213,12 +219,8 @@ class _LoginState extends State<Login> {
                                       fontSize: 16.0);
                                 }
                               },
-                              /*  Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) => Dashboard(),
-                                    ));
-                                     */
+                                
+                                     
                             )),
                       ),
                       // child: Center(
